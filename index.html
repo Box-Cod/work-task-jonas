@@ -6,26 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="">
-        <form action="" >
-            <div>
-                <div class="">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" required>
-                </div>
-                <div class="">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" required>
-                </div>
-                <div class="">
-                    <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" required>
-                </div>
-                <div>
-                    <button type="button">Enviar</button>
-                </div>
-            </div>
-        </form>
+    <div>
+        <div >
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required placeholder="Nome">
+        </div>
+        <div >
+            <label for="email">Email:</label>
+            <input type="text" id="email" required placeholder="exemplo@email.com">
+        </div>
+        <div >
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" required placeholder="(11) 22222 3333">
+        </div>
+        <div>
+            <button type="button" onclick="validarCampos()">Enviar</button>
+        </div>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
